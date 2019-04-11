@@ -25,4 +25,4 @@ aws s3 --recursive mv s3://$s3/dev s3://$s3/prd
 
 #### Step 5. Clean up ####
 rm -r ~/dev
-aws s3 --recursive rm s3://$s3 # takes 5 minutes
+aws s3 --recursive rm s3://$s3
